@@ -62,7 +62,8 @@
         }
 
         .clipped {
-            background-image: url("https://tse2.mm.bing.net/th?id=OIP.E9ppopi1uhDyJGOaO-MfBQHaEK&pid=Api&P=0&h=180");
+            /* background-image: url("./images/c1.png");
+            background-image: url("./images/c2.png"); */
             display: flex;
             align-items: center;
             justify-content: center;
@@ -96,33 +97,44 @@
 <body>
     <header>
         <nav>
+           
             <a href="#circle">Circle</a>
             <a href="#ellipse">Ellipse</a>
             <a href="#inset">Inset</a>
             <a href="#polygon">Polygon</a>
+           
         </nav>
     </header>
     <main>
-        <h1><u>CSS CLIPPING</u></h1>
+        <h1><u><i>Coffee Shop</i></u></h1>
+        <h2><i><u>About Us</u></i></h2>
         <p>
-           <center><h3> CSS clipping is a technique used to define the visible region of an element by restricting its rendering to a specific shape or area.
-            <br> The parts of the element that fall outside the defined shape or clipping region are not displayed. This is done using the clip-path property in CSS.<br>
-            CSS clipping can transform elements into various shapes like circles, ellipses, polygons, or custom paths, providing creative control over their appearance. 
-            <br>It's widely used in web design to crop images, create unique UI designs, highlight specific parts of an element, or build visually appealing transitions and animations.<br>
-            This feature supports both static and dynamic effects, offering flexibility for modern, interactive web applications. </h3></center></p>
+           <center><h3> We make our own coffee special by the way we make it, the ingredients we use, and through the
+            rituals we associate with it. <br>Coffee is much more to coffee lovers than a mere relaxing
+            beverage or a quick energy drink. <br>Coffee has a complex flavour profile. In other words, when we drink it, we
+            experience a combination of flavours working together.<br>This why coffee drinkers all taste
+            (and smell) different things in their coffee.<br>There are many ways to learn to make really good coffee. The easiest way is to
+            search for good coffee-making demonstrations on YouTube.<br> And if you are really loving the
+            art of making coffee, then consider a career as a barista.</h3></center></p>
         <section class="shapes">
             <div id="circle" class="clipped" style="clip-path: circle(50%);">
+                <img src ="./images/c1.png" >
                 <h2>Circle</h2>
             </div>
             <div id="ellipse" class="clipped" style="clip-path: ellipse(60% 40% at 50% 50%);">
+                <img src ="./images/c2.png">
                 <h2>Ellipse</h2>
             </div>
             <div id="inset" class="clipped" style="clip-path: inset(20%);">
+                <img src ="./images/c3.png">
                 <h2>Inset</h2>
             </div>
             <div id="polygon" class="clipped" style="clip-path: polygon(0% 0%, 100% 0%, 50% 100%);">
+                <img src ="./images/m4.png">
                 <h2>Polygon</h2>
             </div>
+
+            
         </section>
     </main>
     <footer>
